@@ -19,7 +19,7 @@ FlowLab/
     experimental-protocols.md
     multimodal-data-collection.md
     data-analysis.md
-  spier16/
+  src/
     combined-flow-loop-ae/
       Flow_loop_analysis_notebook2.ipynb
       example-files/
@@ -66,14 +66,14 @@ The loop supports simultaneous measurement of:
 
 ## Existing Analysis Notebooks
 
-- `spier16/combined-flow-loop-ae/Flow_loop_analysis_notebook2.ipynb`:
+- `src/combined-flow-loop-ae/Flow_loop_analysis_notebook2.ipynb`:
   combined flow-loop, heater-power, and AE analysis using the example files in
-  `spier16/combined-flow-loop-ae/example-files/`.
-- `spier16/accelerometer-labview/Labview_Accelerometer_CWT_Analysis.ipynb`:
+  `src/combined-flow-loop-ae/example-files/`.
+- `src/accelerometer-labview/Labview_Accelerometer_CWT_Analysis.ipynb`:
   continuous wavelet transform analysis for LabVIEW accelerometer data.
-- `spier16/accelerometer-raspberry-pi/RaspberryPi_Accelerometer_Analysis.ipynb`:
+- `src/accelerometer-raspberry-pi/RaspberryPi_Accelerometer_Analysis.ipynb`:
   accelerometer analysis for Raspberry Pi/MCC 172 data.
-- `spier16/accelerometer-raspberry-pi/RaspberryPi_Accelerometer_Analysis_Flow_loop.ipynb`:
+- `src/accelerometer-raspberry-pi/RaspberryPi_Accelerometer_Analysis_Flow_loop.ipynb`:
   accelerometer workflow paired with flow-loop data.
 
 ## Data Handling Notes
