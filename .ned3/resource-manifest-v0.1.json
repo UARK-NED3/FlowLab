@@ -1,0 +1,11 @@
+{
+  "manifest_version": "0.1.0",
+  "resource": {"id": "flowlab", "name": "FlowLab", "kind": "workflow", "visibility": "public"},
+  "canonical_repository": {"url": "https://github.com/UARK-NED3/FlowLab", "default_branch": "main", "reference": "fb2a070a6df6ebae4a8935121923e7bd1e087c85", "accessed_on": "2026-10-12"},
+  "lifecycle": {"status": "active_research", "maintainer_review": "pending"},
+  "intended_use": {"users": ["researchers running and analyzing documented single-phase and two-phase liquid-cooling experiments"], "supported_tasks": ["document liquid-cooling experiments", "organize flow-loop multimodal data", "analyze thermal-hydraulic and sensing records"], "not_intended_for": ["facility-scale cooling performance claims, cross-facility transfer claims, or validated acoustic diagnostics without case-specific calibration and evaluation"]},
+  "interfaces": {"required_inputs": ["operating protocol", "test identifiers", "sensor metadata", "raw streams and processing settings"], "outputs": ["documented workflow", "derived analysis artifacts", "multimodal collection context"], "execution": "notebook_or_script"},
+  "evidence": {"ceiling": "workflow", "validation_status": "not_claimed", "limitations": ["Protocol and notebook availability do not independently validate a measurement, calibration, or model trained on derived records.", "Clock offsets and synchronization order do not establish zero trigger latency or absence of clock drift."]},
+  "reuse": {"software_license": "declared", "data_rights": "not_included", "citation": "repository_or_release"},
+  "links": {"documentation": "https://github.com/UARK-NED3/FlowLab#readme", "issues": "https://github.com/UARK-NED3/FlowLab/issues"}
+}

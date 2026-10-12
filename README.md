@@ -5,6 +5,9 @@ experiments. It combines operating protocols, multimodal data collection
 guidance, example files, and analysis notebooks for flow-loop, heater-power,
 acoustic-emission, and accelerometer measurements.
 
+Repository scope, evidence, and reuse boundaries are also available in the
+[NED3 resource manifest](.ned3/resource-manifest-v0.1.json).
+
 The current repository content is organized around the microchannel
 two-phase-flow loop with acoustic-emission (AE) sensing documented in the
 October 2025 internal SOP, "Microchannel Two-phase Flow Loop with Acoustic
